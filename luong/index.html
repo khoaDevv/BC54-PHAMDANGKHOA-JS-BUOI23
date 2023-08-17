@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <!-- Tính Lương -->
+    <div class="ml-5">
+      <h3 class="mt-2">Tính số lương nv</h3>
+      <input type="text" id="ngay" placeholder="ngày" />
+      <br />
+      <br />
+      <button onclick="accept()" class="btn btn-primary">Done</button>
+      <div>Số Lương:<span id="tongluong"></span></div>
+    </div>
+    <!-- Tính Số TB -->
+    <div class="ml-5 mt-5" id="TB">
+      <h3>Tính số TB</h3>
+      <input type="text" id="number1" placeholder="Number" />
+      <input type="text" id="number2" placeholder="Number" />
+      <input type="text" id="number3" placeholder="Number" />
+      <input type="text" id="number4" placeholder="Number" />
+      <input type="text" id="number5" placeholder="Number" />
+      <br />
+      <button onclick="result()" class="mt-4 btn btn-primary">Done</button>
+      <div id="trungbinh"></div>
+    </div>
+    <!-- Quy Đổi -->
+    <div class="ml-5">
+      <h3 class="mt-5">Quy Đổi Tiền</h3>
+      <input type="text" id="usd" placeholder="$ " />
+      <br />
+      <button onclick="check()" class="mt-4 btn btn-primary">Done</button>
+      <div id="quy-doi"></div>
+    </div>
+    <!-- Tính Diện Tích , Chu Vi HCN -->
+    <div class="ml-5" id="dai-rong">
+      <h3 class="mt-5">Tính diện tích,chu vi HCN</h3>
+      <input type="text" id="chieu-dai" placeholder="number" />
+      <input type="text" id="chieu-rong" placeholder="number" />
+      <br />
+      <button onclick="count()" class="mt-4 btn btn-primary">Done</button>
+      <div id="dien-tich"></div>
+      <div id="chu-vi"></div>
+    </div>
+    <!-- Tính tổng 2 ký số -->
+    <div class="ml-5 mt-4">
+      <h3>Tính tổng 2 ký số</h3>
+      <input type="text" id="tong-2Kyso" placeholder="number" />
+      <br />
+      <button onclick="end()" class="mt-4 btn btn-primary">Done</button>
+      <div id="tong2Kyso"></div>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
